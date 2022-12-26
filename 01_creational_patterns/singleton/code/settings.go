@@ -1,4 +1,4 @@
-package first
+package code
 
 type Settings1 struct {
 }
