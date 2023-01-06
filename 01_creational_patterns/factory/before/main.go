@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 어떤 요구사항으로 계속 변경됨
 type Ship struct {
 	color string
 	name  string
