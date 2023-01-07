@@ -6,7 +6,7 @@ type whiteShip struct {
 	Ship
 }
 
-func (a *WhiteShipFactory) order() IShip {
+func (a *WhiteShipFactory) createShip() IShip {
 	ship := whiteShip{
 		Ship: Ship{
 			logo: "W",

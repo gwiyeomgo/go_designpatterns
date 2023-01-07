@@ -6,7 +6,7 @@ type blackShip struct {
 	Ship
 }
 
-func (a *BlackShipFactory) order() IShip {
+func (a *BlackShipFactory) createShip() IShip {
 	return &blackShip{
 		Ship: Ship{
 			logo: "W",

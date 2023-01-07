@@ -5,6 +5,7 @@ import "fmt"
 
 // Concrete product
 // 위임
+// 스포츠 제품을 생성하는 객체
 type ISportsFactory interface {
 	makeShoe() IShoe
 	makeShirt() IShirt

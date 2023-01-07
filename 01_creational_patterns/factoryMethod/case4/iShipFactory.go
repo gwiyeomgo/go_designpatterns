@@ -6,7 +6,7 @@ import "fmt"
 // Concrete product
 // 위임
 type IShipFactory interface {
-	order() IShip
+	createShip() IShip
 }
 
 func GetShipFactory(name string) (IShipFactory, error) {

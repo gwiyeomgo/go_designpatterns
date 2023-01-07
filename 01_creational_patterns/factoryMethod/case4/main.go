@@ -17,9 +17,9 @@ func main() {
 	whiteShipFactory, _ := GetShipFactory("white")
 	blackShipFactory, _ := GetShipFactory("black")
 
-	whiteShipAnchor := whiteShipFactory.order()
-	blackShipWheel := blackShipFactory.order()
+	white := whiteShipFactory.createShip()
+	black := blackShipFactory.createShip()
 
-	printShiplDetails(whiteShipAnchor)
-	printShiplDetails(blackShipWheel)
+	printShiplDetails(white)
+	printShiplDetails(black)
 }

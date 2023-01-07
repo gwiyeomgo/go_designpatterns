@@ -1,4 +1,4 @@
-package main
+package case2
 
 type Ship struct {
 	name  string
