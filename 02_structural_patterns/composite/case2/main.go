@@ -1,26 +1,18 @@
 package main
 
+import "fmt"
+
 type Component interface {
 	getPrice() int
 }
-type Item struct {
-	price int
-}
-
-func (i *Item) getPrice() int {
-	return 0
-	//fmt.Printf("Searching for keyword %s in file %s\n", keyword, f.name)
-}
-
-type Bag struct {
-	price string
-}
-
-func (b *Bag) getPrice() int {
-	return 0
-	//fmt.Printf("Searching for keyword %s in file %s\n", keyword, f.name)
-}
 
 func main() {
+	lipstick := Item{name: "lipstick", price: 45000}
+	sunglasses := Item{name: "sunglasses", price: 50000}
 
+	bag := &Bag{}
+	bag.add(&lipstick)
+	bag.add(&sunglasses)
+
+	fmt.Printf("가방안의 물건의 가격 합계는 %d", bag.getPrice())
 }
