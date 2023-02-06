@@ -1,11 +1,15 @@
-package case2
-
-import "net/smtp"
+package main
 
 type Message struct {
-	addr string
-	auth smtp.Auth
 	from string
 	to   []string
 	msg  []byte
+}
+
+func newMessage(from string, to []string, msg []byte) *Message {
+	return &Message{
+		from: from,
+		to:   to,
+		msg:  msg,
+	}
 }

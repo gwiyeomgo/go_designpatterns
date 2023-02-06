@@ -1,9 +1,15 @@
-package case2
+package main
 
 type Settings struct {
 	ServerHost string
 	ServerPort string
-	Username   string
 	Password   string
-	SenderAddr string
+}
+
+func newSettings(Password string) *Settings {
+	return &Settings{
+		ServerHost: "smtp.gmail.com",
+		ServerPort: "587",
+		Password:   Password,
+	}
 }
