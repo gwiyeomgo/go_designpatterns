@@ -26,5 +26,8 @@ func main() {
 		fmt.Printf("post: %+v\n", post.content)
 	}
 	//가장 최신 글을 먼저 출력  ?
-
+	for iterator.hasPre() {
+		post := iterator.getPre()
+		fmt.Printf("post: %+v\n", post.content)
+	}
 }
