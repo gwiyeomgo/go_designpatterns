@@ -7,66 +7,6 @@ type Command interface {
 	undo()
 }
 
-type Light interface {
-	on()
-	off()
-}
-
-type LightOffCommand struct {
-	light Light
-}
-
-func (c *LightOffCommand) execute() {
-	c.light.off()
-}
-func (c *LightOffCommand) undo() {
-	command := LightOnCommand{light: c.light}
-	command.undo()
-}
-
-type LightOnCommand struct {
-	light Light
-}
-
-func (c *LightOnCommand) execute() {
-	c.light.on()
-}
-func (c *LightOnCommand) undo() {
-	command := LightOffCommand{light: c.light}
-	command.execute()
-}
-
-//game
-
-type Game interface {
-	start()
-	end()
-}
-
-type GameEndCommand struct {
-	game Game
-}
-
-func (c *GameEndCommand) execute() {
-	c.game.end()
-}
-func (c *GameEndCommand) undo() {
-	command := GameStartCommand{game: c.game}
-	command.undo()
-}
-
-type GameStartCommand struct {
-	game Game
-}
-
-func (c *GameStartCommand) execute() {
-	c.game.start()
-}
-func (c *GameStartCommand) undo() {
-	command := GameEndCommand{game: c.game}
-	command.execute()
-}
-
 type Button struct {
 	commands Stack
 }
