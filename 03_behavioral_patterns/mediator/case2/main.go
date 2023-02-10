@@ -7,7 +7,7 @@ type User struct {
 	Messages []string
 }
 
-//중재자
+// 중재자
 type Chat struct {
 	Users map[string]*User
 }
@@ -51,12 +51,12 @@ func main() {
 	chat.Say(Alice, "Hello, Alice!")
 	chat.SayAll("Hello, All!")
 
-	bob :=chat.Users[Bob.Name]
+	bob := chat.Users[Bob.Name]
 	fmt.Println(bob.Messages)
 
-	john :=chat.Users[John.Name]
+	john := chat.Users[John.Name]
 	fmt.Println(john.Messages)
 
-	alice :=chat.Users[Alice.Name]
+	alice := chat.Users[Alice.Name]
 	fmt.Println(alice.Messages)
 }
