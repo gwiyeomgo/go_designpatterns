@@ -1,4 +1,4 @@
-package case1
+package main
 
 type Originator struct {
 	state string

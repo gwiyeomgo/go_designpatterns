@@ -2,4 +2,14 @@
 
 스냅샷
 
+장점
+originator (Game)의 상태를 저장해 
+caretaker 를 사용한다면 단일책임의 원칙
+
+
+단점
+메멘토 객체가 많은 정보를 갖고 있고
+자주 생성한다면 메모리 사용량에 많은 영향을 줄 수 있다
+오래된 메멘토를 정리하는 역할도 caretaker 가 할수도 있다
+
 https://refactoring.guru/ko/design-patterns/memento/go/example
