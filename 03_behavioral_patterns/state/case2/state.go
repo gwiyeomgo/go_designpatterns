@@ -1,5 +1,6 @@
 package main
 
 type State interface {
-	draftItem()
+	insertCoin()
+	printTicket()
 }
