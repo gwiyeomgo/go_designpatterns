@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+type IAttackStrategy interface {
+	attack()
+}
+
 type MissileStrategy struct {
 }
 
