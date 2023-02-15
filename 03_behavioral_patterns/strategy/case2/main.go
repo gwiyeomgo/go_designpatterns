@@ -2,9 +2,10 @@ package main
 
 func main() {
 	missile := &MissileStrategy{}
-	robot := initRobot("아톰", missile)
-	robot.attack()
+	atom := initRobot("아톰", missile)
+	atom.attack()
+
 	punchStrategy := &PunchStrategy{}
-	robot.setAttackStrategy(punchStrategy)
-	robot.attack()
+	atom.setAttackStrategy(punchStrategy)
+	atom.attack()
 }
