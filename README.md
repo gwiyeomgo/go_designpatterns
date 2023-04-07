@@ -1,4 +1,5 @@
-﻿<p align="center">
+
+<p align="center">
   <h1 align="center">
     Go Patterns
   </h1>
@@ -10,45 +11,37 @@ go 언어를 사용한  디자인 패턴 코드를 찾거나 예제 코드를 �
 
 |      |                                                                Pattern | Description                          | Status |
 |------|-----------------------------------------------------------------------:|:-------------------------------------|:------:|
-| 1    | [Abstract Factory](./01_creational_patterns/abstractFactory/README.md) |  |✔|
-| 2    |                  [Builder](./01_creational_patterns/builder/README.md) |                                      | ✔ |
-| 3    |     [Factory Method](./01_creational_patterns/factoryMethod/README.md) |                                      | ✔ |
-| 4    |              [Prototype](./01_creational_patterns/prototype/README.md) |                                     | ✔ |
-| 5    |                [Singleton](./01_creational_patterns/builder/README.md) |                                      | ✔ |
+| 1    | [Abstract Factory](https://github.com/gwiyeomgo/go_designpatterns/blob/main/01_creational_patterns/abstractFactory/README.md) |  |✔|
+| 2    |                  [Builder](https://github.com/gwiyeomgo/go_designpatterns/blob/main/01_creational_patterns/builder/README.md) |                                      | ✔ |
+| 3    |     [Factory Method](https://github.com/gwiyeomgo/go_designpatterns/blob/main/01_creational_patterns/factoryMethod/README.md) |                                      | ✔ |
+| 4    |              [Prototype](https://github.com/gwiyeomgo/go_designpatterns/blob/main/01_creational_patterns/prototype/README.md) |                                     | ✔ |
+| 5    |                [Singleton](https://github.com/gwiyeomgo/go_designpatterns/blob/main/01_creational_patterns/builder/README.md) |                                      | ✔ |
 
 ## Structural Patterns
 
 |     |                          Pattern                          | Description | Status |
 |-----|:---------------------------------------------------------:|:----------- |:------:|
-| 6   |   [Adapter](./02_structural_patterns/adapter/README.md)   | | ✔ |
-| 7   |    [Bridge](./02_structural_patterns/bridge/README.md)    | | ✔ |
-| 8   | [Composite](./02_structural_patterns/composite/README.md) |  | ✔ |
-| 9   | [Decorator](./02_structural_patterns/decorator/README.md) |  | ✔ |
-| 10  |    [Facade](./02_structural_patterns/facade/README.md)    |  | ✔ |
-| 11  | [Flyweight](./02_structural_patterns/flyweight/README.md) |  | ✔ |
-| 12  |     [Proxy](./02_structural_patterns/proxy/README.md)     |  | ✔ |
+| 6   |   [Adapter](https://github.com/gwiyeomgo/go_designpatterns/blob/main/02_structural_patterns/adapter/README.md)   | | ✔ |
+| 7   |    [Bridge](https://github.com/gwiyeomgo/go_designpatterns/blob/main/02_structural_patterns/bridge/README.md)    | | ✔ |
+| 8   | [Composite](https://github.com/gwiyeomgo/go_designpatterns/blob/main/02_structural_patterns/composite/README.md) |  | ✔ |
+| 9   | [Decorator](https://github.com/gwiyeomgo/go_designpatterns/blob/main./02_structural_patterns/decorator/README.md) |  | ✔ |
+| 10  |    [Facade](https://github.com/gwiyeomgo/go_designpatterns/blob/main/02_structural_patterns/facade/README.md)    |  | ✔ |
+| 11  | [Flyweight](https://github.com/gwiyeomgo/go_designpatterns/blob/main/02_structural_patterns/flyweight/README.md) |  | ✔ |
+| 12  |     [Proxy](https://github.com/gwiyeomgo/go_designpatterns/blob/main/02_structural_patterns/proxy/README.md)     |  | ✔ |
 
 
 ## Behavioral Patterns
 
 |     |                                         Pattern                                         | Description | Status |
 |-----|:---------------------------------------------------------------------------------------:|:----------- |:------:|
-| 13  | [ChainOfResponsibilities](./03_behavioral_patterns/chain_of_responsibilities/README.md) | | ✔ |
-| 14  |                  [Command](./03_behavioral_patterns/command/README.md)                  | | ✔ |
-| 15  |              [Interpreter](./03_behavioral_patterns/interpreter/README.md)              | | ✔ |
-| 16  |                 [Iterator](./03_behavioral_patterns/iterator/README.md)                 | | ✔ |
-| 17  |                 [Mediator](./03_behavioral_patterns/mediator/README.md)                 | | ✔ |
-| 18  |                  [Memento](./03_behavioral_patterns/memento/README.md)                  | | ✔ |
-| 19  |                 [Observer](./03_behavioral_patterns/observer/README.md)                 | | ✔ |
-| 20  |                    [State](./03_behavioral_patterns/state/README.md)                    | | ✔ |
-| 21  |                 [Strategy](./03_behavioral_patterns/strategy/README.md)                 | | ✔ |
-| 22  |           [TemplateMethod](./03_behavioral_patterns/templateMethod/README.md)           | | ✔ |
-| 23  |                  [Visitor](./03_behavioral_patterns/visitor/README.md)                  | | ✔ |
-
-
-
-
-
-
-
-
+| 13  | [ChainOfResponsibilities](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/chain_of_responsibilities/README.md) | | ✔ |
+| 14  |                  [Command](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/command/README.md)                  | | ✔ |
+| 15  |              [Interpreter](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/interpreter/README.md)              | | ✔ |
+| 16  |                 [Iterator](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/iterator/README.md)                 | | ✔ |
+| 17  |                 [Mediator](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/mediator/README.md)                 | | ✔ |
+| 18  |                  [Memento](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/memento/README.md)                  | | ✔ |
+| 19  |                 [Observer](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/observer/README.md)                 | | ✔ |
+| 20  |                    [State](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/state/README.md)                    | | ✔ |
+| 21  |                 [Strategy](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/strategy/README.md)                 | | ✔ |
+| 22  |           [TemplateMethod](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/templateMethod/README.md)           | | ✔ |
+| 23  |                  [Visitor](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/visitor/README.md)                  | | ✔ |
