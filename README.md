@@ -45,3 +45,28 @@ go 언어를 사용한  디자인 패턴 코드를 찾거나 예제 코드를 �
 | 21  |                 [Strategy](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/strategy/README.md)                 | | ✔ |
 | 22  |           [TemplateMethod](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/templateMethod/README.md)           | | ✔ |
 | 23  |                  [Visitor](https://github.com/gwiyeomgo/go_designpatterns/blob/main/03_behavioral_patterns/visitor/README.md)                  | | ✔ |
+
+## Microservice design patterns
+|         | Pattern                                         | Description | Status |
+|---------|-------------------------------------------------|---|---|
+| 1       | Service Registry                                |||
+| 2       | Circuit Breaker                                 |||
+| 3       | API Gateway                                     |||
+| 4       | Event-Driven Architecture                       |||
+| 5       | Database per Service                            |||
+| 6       | Command Query Responsibility Segregation (CQRS) |||
+| 7       | Externalized Configuration                      |||
+| 8       | Saga Pattern                                    |||
+| 9       | Bulkhead Pattern                                |||
+| 10      | Backends for Frontends (BFF)                    |||
+| 11 (추가) | Retry                                           |https://engineering.mercari.com/en/blog/entry/20210126-retry-pattern-in-microservices/||
+| 12 (추가)| Circuit Debounce                                |||
+
+## Go Concurrency Patterns
+https://go.dev/blog/pipelines
+https://woojinger.tistory.com/82
+
+|         | Pattern | Description | Status |
+|---------|---------|---|---|
+| 1       | fan-in  |||
+| 2       | fan-out |||
